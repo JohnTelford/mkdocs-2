@@ -9,56 +9,49 @@ title: Website Development Stack
 
 
 --
-<!--
-![Developer Iterative Development Stack](/img/websitedev.png)
--->
 
-<img src="/img/websitedev.png" width="500" />
 
-### Website Development Stack
 
 ``` mermaid
 flowchart TB
 	net([Internet]) 
 
-	net --- cdn
+	web([Web])
 
-	net --- WEB([Deployed Website])
+	net --- cdn([Deployed Website to Web])
+	
+	net --- web
 
 	github([GitHub]) 
 
-	github --- crepo([Central Repository])
+	github ---| H | crepo([Central Repository])
 
 	github --- cdn
 
-	github --- net
+	github ---| G | net
 	
-	cdn([Content Delivery Network])
 
-	cdn --- WEB
-
-	vsc([VScode - Command and Control]) --- net 
+	vsc([VScode - Command and Control]) ---| A | net 
 	
-	vsc --- lrepo([Local Repo])
+	vsc ---| B | lrepo([Local Repository])
 
 	ssg([Static Site Generator])
 
-	vsc --- ssg
+	vsc ---| D |ssg
 
-	ssg --- lrepo
-
-	ssg --- net
+	ssg ---| C | lrepo
 
 	brow([Browser])
 
-	ssg --- brow
+	ssg ---| E | brow
 
-	brow --- net
+	brow ---| F | net
 
 
 ```
 
-### Mermaid
+### Website Development Stack
+
 ---
 
 !!! info
