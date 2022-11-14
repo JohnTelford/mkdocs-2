@@ -18,7 +18,10 @@ flowchart TB
 
 	web([Web])
 
-	net --- cdn([Deployed Website to Web])
+	crepo ---| J | cdn([Deploy Website to Web])
+
+	cdn ---| K | net
+
 	
 	net --- web
 
@@ -26,7 +29,7 @@ flowchart TB
 
 	github ---| H | crepo([Central Repository])
 
-	github --- cdn
+	github ---| J | cdn
 
 	github ---| G | net
 	
