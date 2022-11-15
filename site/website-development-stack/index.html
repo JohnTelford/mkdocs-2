@@ -367,13 +367,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#mermaid" class="md-nav__link">
-    Mermaid
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -607,13 +600,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#mermaid" class="md-nav__link">
-    Mermaid
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -636,51 +622,45 @@
 <p>The <em>Iterative Website Development Stack</em> illustrates how websites are developed and deployed to the Internet. It is web browser agnostic. What works for big screens, works for small screens.</p>
 </div>
 <p>--</p>
-<!--
-![Developer Iterative Development Stack](/img/websitedev.png)
--->
-
-<p><img src="/img/websitedev.png" width="500" /></p>
-<h3 id="website-development-stack">Website Development Stack</h3>
 <pre class="mermaid"><code>flowchart TB
     net([Internet]) 
 
-    net --- cdn
+    web([Web Site])
 
-    net --- WEB([Deployed Website])
+    crepo ---| J | cdn([Deploy Website to Web])
+
+    cdn ---| K | net
+
+
+    net --- web
 
     github([GitHub]) 
 
-    github --- crepo([Central Repository])
+    github ---| H | crepo([Central Repository])
 
-    github --- cdn
+    github ---| J | cdn
 
-    github --- net
+    github ---| G | net
 
-    cdn([Content Delivery Network])
 
-    cdn --- WEB
+    vsc([VScode - Command and Control]) ---| A | net 
 
-    vsc([VScode - Command and Control]) --- net 
-
-    vsc --- lrepo([Local Repo])
+    vsc ---| B | lrepo([Local Repository])
 
     ssg([Static Site Generator])
 
-    vsc --- ssg
+    vsc ---| D |ssg
 
-    ssg --- lrepo
-
-    ssg --- net
+    ssg ---| C | lrepo
 
     brow([Browser])
 
-    ssg --- brow
+    ssg ---| E | brow
 
-    brow --- net
+    brow ---| F | net
 
 </code></pre>
-<h3 id="mermaid">Mermaid</h3>
+<h3 id="website-development-stack">Website Development Stack</h3>
 <hr />
 <div class="admonition info">
 <p class="admonition-title">Info</p>

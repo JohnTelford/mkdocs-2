@@ -16,50 +16,71 @@ title: Website Development Stack
 flowchart TB
 	net([Internet]) 
 
-	web([Web])
+	web([Web Site])
 
-	crepo ---| J | cdn([Deploy Website to Web])
+	crepo --- cdn([Deploy Website to Web])
 
-	cdn ---| K | net
+	cdn --- net
 
 	
 	net --- web
 
 	github([GitHub]) 
 
-	github ---| H | crepo([Central Repository])
+	github --- crepo([Central Repository])
 
-	github ---| J | cdn
+	github --- cdn
 
-	github ---| G | net
+	github --- net
 	
 
-	vsc([VScode - Command and Control]) ---| A | net 
+	vsc([VScode - Command and Control]) --- net 
+
+	developer([Developers]) --- 
 	
-	vsc ---| B | lrepo([Local Repository])
+	vsc --- lrepo([Local Repository])
 
 	ssg([Static Site Generator])
 
-	vsc ---| D |ssg
+	vsc --- ssg
 
-	ssg ---| C | lrepo
+	ssg --- lrepo
 
 	brow([Browser])
 
-	ssg ---| E | brow
+	ssg --- brow
 
-	brow ---| F | net
+	brow --- net
 
 
 ```
 
 ### Website Development Stack
 
----
-
 !!! info
 
-	The key *Iterative Development* technologies are  [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](deploy/#cloudflare)
+	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
+
+!!! Description
+
+- Developer:  
+    - Uses "VScode" as their Web Development Stack Command and Control center and project editor
+
+    - Uses the "Static Site Generator" that uses the "Local Repository" code to create a local website. The same tools that are used to create the production website,
+
+    - Local Repository  
+	Each developer has their copy of the "Local Repository"
+
+
+- GitHub  
+    - Manages the "Central Repository".  
+	It is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Project Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+		>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?
+
+
+
+---
 
 
 
