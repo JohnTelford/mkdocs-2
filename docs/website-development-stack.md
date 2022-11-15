@@ -14,32 +14,21 @@ title: Website Development Stack
 
 ``` mermaid
 flowchart TB
-	dev([Developers]) --- vsc 
-
-
-	vsc([VScode - Command and Control]) 
-
-
 	
-	
-	crepo --- cdn([CDN - Deploy Website to Web])
+	crepo --- cdn
 
 	cdn --- net
 
-	github([GitHub]) 
+	dev --- vsc 
 
-	github --- crepo([Central Repository])
+	github --- crepo
 
 	github --- cdn
 
 	github --- net
 	
-	net([Internet]) 
-
-	mkd([MkDocs])
+	vsc --- lrepo
 	
-	vsc --- lrepo([Local Repository])
-
 	net --- prevweb
 
 	net --- proweb
@@ -48,14 +37,25 @@ flowchart TB
 
 	vsc --- mkd
 
+	dev([Developers])
+
+	cdn([CDN - Deploy Website to Web])
+
+	crepo([Central Repository])
+
+	github([GitHub]) 
+
+	lrepo([Local Repository])
+
 	mkd([Mkdocs - Static Site Generator])
 
-	
+	net([Internet]) 
 	
 	prevweb([Preview - Web Sites])
 
 	proweb([Production - Web Site])
 
+	vsc([VScode - Command and Control]) 
 
 
 ```
