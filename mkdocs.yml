@@ -40,8 +40,6 @@ nav:
       - workstations.md
       - material.md
 
-
-
   - Company:
     - About: company.md
     - Contact: contact.md
@@ -60,9 +58,4 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
-extra:
-  version:
-    provider: mike
-
 
