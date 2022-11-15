@@ -47,7 +47,7 @@ flowchart TB
 
 	lrepo([Local Repository])
 
-	mkd([Mkdocs - Static Site Generator])
+	mkd([Mkdocs Material - Static Site Generator])
 
 	net([Internet]) 
 	
@@ -64,17 +64,17 @@ flowchart TB
 
 !!! info
 
-	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
+	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control, [MkDocs Marteral](https://squidfunk.github.io/mkdocs-material/) static site generator, [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
 
 !!! Description
 
-- Developer:  
-    - Uses "VScode" as their Web Development Stack Command and Control center and project editor
+- Developers:  
+     - Local Repository:  
+	Each developer has their own "Local Repository", which can be updated with the approved changes in the "Remote Repository."
 
-    - Uses the "Static Site Generator" that uses the "Local Repository" code to create a local website. The same tools that are used to create the production website,
+     - Use "VScode" as their Web Development Stack Command and Control center, and project editor
 
-    - Local Repository:  
-	Each developer has their own "Local Repository",news which can be updated with the approved changes in the "Remote Repository."
+    - Use the "MkDocs - Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview - Website" for stake holders. The same "MkDocs Static Site Generator" tools that are used to create the production website by the "CDN - Deploy Website to Web"
 
 
 - GitHub  
