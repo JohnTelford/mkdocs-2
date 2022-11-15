@@ -14,16 +14,17 @@ title: Website Development Stack
 
 ``` mermaid
 flowchart TB
-	net([Internet]) 
+	dev([Developers]) --- vsc 
 
-	web([Web Site])
 
-	crepo --- cdn([Deploy Website to Web])
+	vsc([VScode - Command and Control]) 
 
-	cdn --- net
 
 	
-	net --- web
+	
+	crepo --- cdn([CDN - Deploy Website to Web])
+
+	cdn --- net
 
 	github([GitHub]) 
 
@@ -33,24 +34,28 @@ flowchart TB
 
 	github --- net
 	
+	net([Internet]) 
 
-	vsc([VScode - Command and Control]) --- net 
-
-	developer([Developers]) --- 
+	mkd([MkDocs])
 	
 	vsc --- lrepo([Local Repository])
 
-	ssg([Static Site Generator])
+	net --- prevweb
 
-	vsc --- ssg
+	net --- proweb
 
-	ssg --- lrepo
+	vsc --- net
 
-	brow([Browser])
+	vsc --- mkd
 
-	ssg --- brow
+	mkd([Mkdocs - Static Site Generator])
 
-	brow --- net
+	
+	
+	prevweb([Preview - Web Sites])
+
+	proweb([Production - Web Site])
+
 
 
 ```
@@ -68,8 +73,8 @@ flowchart TB
 
     - Uses the "Static Site Generator" that uses the "Local Repository" code to create a local website. The same tools that are used to create the production website,
 
-    - Local Repository  
-	Each developer has their copy of the "Local Repository"
+    - Local Repository:  
+	Each developer has their own "Local Repository",news which can be updated with the approved changes in the "Remote Repository."
 
 
 - GitHub  
