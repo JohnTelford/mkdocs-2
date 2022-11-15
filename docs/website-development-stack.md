@@ -74,7 +74,7 @@ flowchart TB
 
      - Use "VScode" as their Web Development Stack Command and Control center, and project editor
 
-    - Use the "MkDocs - Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview - Website" for stake holders. The same "MkDocs Static Site Generator" tools that are used to create the production website by the "CDN - Deploy Website to Web"
+    - Use the "MkDocs Material - Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview - Website" for stake holders. The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
 
 - GitHub  
