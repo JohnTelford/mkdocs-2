@@ -8,9 +8,9 @@ title: Teams Overview
 
     Iterative Development Team members work together delivering their work to other teams during the life time of the website.
 
-!!! danger
+!!! danger 
+    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
 
-    The slightest errors or security issues will require remediations sometime during the life time of the website.
 
 ---
 
@@ -19,26 +19,25 @@ title: Teams Overview
 ![iterativedev](/img/iterativedev.png)
 
 
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
 -->
 
 ## Development Teams
 
 ``` mermaid
-graph LR
-    A[Develop] --- B[Define]
-    A --- C[Design]
-    A --- M[Maintain]
-    A --- D[Deploy]
-    B --- C
-    M --- D
+graph TD
+    dev --- def
+    dev --- des
+    dev --- dep
+    dev --- mnt
+    def --- des
+    dep --- mnt
+
+    dev([Development])
+    def([Define])
+    des([Design])
+    dep([Deploy])
+    mnt([Maintenance])
+
 ```
 
 !!! note

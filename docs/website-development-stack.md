@@ -57,7 +57,6 @@ flowchart TB
 
 	vsc([VScode - Command and Control]) 
 
-
 ```
 
 ### Website Development Stack

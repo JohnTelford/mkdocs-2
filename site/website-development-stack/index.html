@@ -75,10 +75,6 @@
       
     </div>
     
-      <div data-md-component="outdated" hidden>
-        
-      </div>
-    
     
       
 
@@ -623,49 +619,88 @@
 </div>
 <p>--</p>
 <pre class="mermaid"><code>flowchart TB
-    net([Internet]) 
 
-    web([Web Site])
+    crepo --- cdn
 
-    crepo ---| J | cdn([Deploy Website to Web])
+    cdn --- net
 
-    cdn ---| K | net
+    dev --- vsc 
 
+    github --- crepo
 
-    net --- web
+    github --- cdn
+
+    github --- net
+
+    vsc --- lrepo
+
+    net --- prevweb
+
+    net --- proweb
+
+    vsc --- net
+
+    vsc --- mkd
+
+    dev([Developers])
+
+    cdn([CDN - Deploy Website to Web])
+
+    crepo([Central Repository])
 
     github([GitHub]) 
 
-    github ---| H | crepo([Central Repository])
+    lrepo([Local Repository])
 
-    github ---| J | cdn
+    mkd([Mkdocs Material - Static Site Generator])
 
-    github ---| G | net
+    net([Internet]) 
 
+    prevweb([Preview - Web Sites])
 
-    vsc([VScode - Command and Control]) ---| A | net 
+    proweb([Production - Web Site])
 
-    vsc ---| B | lrepo([Local Repository])
-
-    ssg([Static Site Generator])
-
-    vsc ---| D |ssg
-
-    ssg ---| C | lrepo
-
-    brow([Browser])
-
-    ssg ---| E | brow
-
-    brow ---| F | net
+    vsc([VScode - Command and Control]) 
 
 </code></pre>
 <h3 id="website-development-stack">Website Development Stack</h3>
-<hr />
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>The key <em>Iterative Development</em> technologies are  <a href="git-github#github">GitHub</a>, <a href="git-github#git">git</a>, and a <a href="https://en.wikipedia.org/wiki/Content_delivery_network">Content Delivery Network (CDN)</a> like <a href="deploy/#cloudflare">Cloudflare</a></p>
+<p>The key <em>Iterative Development</em> technologies are <a href="https://code.visualstudio.com/">VScode</a> for command and control, <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Marteral</a> static site generator, <a href="git-github#github">GitHub</a>, <a href="git-github#git">git</a>, and a <a href="https://en.wikipedia.org/wiki/Content_delivery_network">Content Delivery Network (CDN)</a> like <a href="https://www.cloudflare.com">Cloudflare</a></p>
 </div>
+<div class="admonition description">
+<p class="admonition-title">Description</p>
+</div>
+<ul>
+<li>
+<p>Developers:  </p>
+<ul>
+<li>
+<p>Local Repository:<br />
+Each developer has their own "Local Repository", which can be updated with the approved changes in the "Remote Repository."</p>
+</li>
+<li>
+<p>Use "VScode" as their Web Development Stack Command and Control center, and project editor</p>
+</li>
+<li>
+<p>Use the "MkDocs Material - Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview - Website" for stake holders. The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"</p>
+</li>
+</ul>
+</li>
+<li>
+<p>GitHub  </p>
+<ul>
+<li>
+<p>Manages the "Central Repository".<br />
+It is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Project Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.</p>
+<blockquote>
+<p>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
 <p>Team members use the Website Development Stack to develop and deploy websites to the Internet. </p>
 <p>There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  </p>
 <p>A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member <a href="git-github#fork">forks</a> a copy of central project repository to their GetHub account and makes a <a href="glossary#clone">clone</a> of it on their workstation.</p>
@@ -777,7 +812,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.instant"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.instant"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>

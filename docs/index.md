@@ -1,3 +1,7 @@
+<!-- Cloudflare Depolyment Notes 
+ pip freeze > requirements.txt
+-->
+
 
 ---
 
@@ -23,7 +27,6 @@
     This website is being created and maintained by the technologies described.
 
 !!! danger 
-    The slightest errors or security issues during development will require [remediation](siteoverview/#defect-remediation-costs) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
-
+    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
 
 ---

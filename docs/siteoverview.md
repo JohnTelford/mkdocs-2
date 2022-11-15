@@ -70,7 +70,7 @@ People visit websites for content. They have little interest in how the content 
 
 Website development teams working together deliver their work to other teams during the website life time.
 
-The slightest errors or security issues will require remediations sometime during the life time of the website.
+The slightest errors or security issues will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website.
 
 ![iterativedev](/img/iterativedev.png)
 
@@ -78,25 +78,6 @@ The slightest errors or security issues will require remediations sometime durin
 
 Iterative website development enables the *Define, Design, Develop, Deploy and Maintain* team members to be operational at the same time creating, testing, and remediating defects.
 
----
-
-## Defect Remediation Costs
-
-The highest cost over the life time of website projects is remediating defects.
-
-Content and software defects cost less when found early, as this chart shows:
-
-![bugFixChart](/img/bugFixChart.jpg)
-
-**Defect Remediation Costs**
-
-The early defect detection mechanisms built into iterative development and a static site generator are:
-
-- [VScode](developmenttools#vscode) editor tool extensions continually check for syntax and other errors
-
-- Fast refresh live-editing quickly showing changes and any runtime errors while typing
-
-- Team members deploy their copy of the project repository with their changes, to private websites where stakeholders can see them and give feedback.  See [Preview Deployments](glossary#preview-deployments)
 
 ---
 
