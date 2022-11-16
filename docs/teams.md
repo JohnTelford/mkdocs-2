@@ -14,13 +14,6 @@ title: Teams Overview
 
 ---
 
-<!-- :::
-
-![iterativedev](/img/iterativedev.png)
-
-
--->
-
 ## Development Teams
 
 ``` mermaid
@@ -42,14 +35,7 @@ graph TD
 
 !!! note
 
-    Data is bidirectional
-
     Iterative website development enables the *Define, Design, Develop, Deploy and Maintain* teams to be operational at the same time creating, testing and remediating website defects.
-
-
-
-
-
 
 ---
 
