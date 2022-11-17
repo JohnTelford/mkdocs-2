@@ -696,7 +696,7 @@
 <h2 id="diagrams">Diagrams</h2>
 <hr />
 <h3 id="sequence">Sequence</h3>
-<div class="highlight"><pre><span></span><code>sequenceDiagram
+<pre class="mermaid"><code>sequenceDiagram
   Alice-&gt;&gt;John: Hello John, how are you?
   loop Healthcheck
       John-&gt;&gt;John: Fight against hypochondria
@@ -704,20 +704,18 @@
   Note right of John: Rational thoughts!
   John--&gt;&gt;Alice: Great!
   John-&gt;&gt;Bob: How about you?
-  Bob--&gt;&gt;John: Jolly good!
-</code></pre></div>
+  Bob--&gt;&gt;John: Jolly good!</code></pre>
 <hr />
 <h3 id="graph">Graph</h3>
-<div class="highlight"><pre><span></span><code>graph LR
+<pre class="mermaid"><code>graph LR
   A[Start] --&gt; B{Error?};
   B --&gt;|Yes| C[Hmm...];
   C --&gt; D[Debug];
   D --&gt; B;
-  B ----&gt;|No| E[Yay!];
-</code></pre></div>
+  B ----&gt;|No| E[Yay!];</code></pre>
 <hr />
 <h3 id="state">State</h3>
-<div class="highlight"><pre><span></span><code>stateDiagram-v2
+<pre class="mermaid"><code>stateDiagram-v2
   state fork_state &lt;&lt;fork&gt;&gt;
     [*] --&gt; fork_state
     fork_state --&gt; State2
@@ -727,18 +725,17 @@
     State2 --&gt; join_state
     State3 --&gt; join_state
     join_state --&gt; State4
-    State4 --&gt; [*]
-</code></pre></div>
+    State4 --&gt; [*]</code></pre>
 <hr />
 <h3 id="class">Class</h3>
-<div class="highlight"><pre><span></span><code>classDiagram
+<pre class="mermaid"><code>classDiagram
   Person &lt;|-- Student
   Person &lt;|-- Professor
   Person : +String name
   Person : +String phoneNumber
   Person : +String emailAddress
   Person: +purchaseParkingPass()
-  Address &quot;1&quot; &lt;-- &quot;0..1&quot; Person:lives at
+  Address "1" &lt;-- "0..1" Person:lives at
   class Student{
     +int studentNumber
     +int averageMark
@@ -756,15 +753,13 @@
     +String country
     -validate()
     +outputAsLabel()  
-  }
-</code></pre></div>
+  }</code></pre>
 <hr />
 <h3 id="entity-relationship">Entity-relationship</h3>
-<div class="highlight"><pre><span></span><code>erDiagram
+<pre class="mermaid"><code>erDiagram
   CUSTOMER ||--o{ ORDER : places
   ORDER ||--|{ LINE-ITEM : contains
-  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-</code></pre></div>
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses</code></pre>
 <hr />
 
 
@@ -806,6 +801,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 John Telford
+    </div>
   
   
     Made with

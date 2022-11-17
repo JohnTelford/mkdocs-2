@@ -1,5 +1,5 @@
 ---
-id: website-development-stack
+slug: webdevstack
 title: Website Development Stack
 ---
 
@@ -61,24 +61,45 @@ flowchart TB
 
 ### Website Development Stack
 
-!!! info
+!!! Overview
 
 	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control, [MkDocs Marteral](https://squidfunk.github.io/mkdocs-material/) static site generator, [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
 
-!!! Description
+	- **Developers:**  
+	
+		- **Local Repository**:  
+		Each developer has their own "Local Repository" that is derived, which can be updated with the approved changes in the "Remote Repository."
 
-- Developers:  
-     - Local Repository:  
-	Each developer has their own "Local Repository", which can be updated with the approved changes in the "Remote Repository."
+		- **VScode**  
+  
+        	- Developers us VSCode as their Web Development Stack Command and Control center, and project editor
 
-     - Use "VScode" as their Web Development Stack Command and Control center, and project editor
+		- **MkDocs Material**  
+  
+    		- Is "Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview
+  
+  		-  **GitHub**
+	
+          	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+      		
+      		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 
-    - Use the "MkDocs Material - Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview - Website" for stake holders. The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+      		- The "Central Repository" is managed my a team member
+
+				>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?
+
+  
+  - Website" for stake holders. The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
 
 
 - GitHub  
-    - Manages the "Central Repository".  
-	It is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted Central Project Repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+    - Central Repository.  
+	
+    	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+		
+		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+		- The "Central Repository" is managed my a team member
 
 		>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?
 

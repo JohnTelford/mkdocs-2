@@ -1,12 +1,11 @@
 site_name: John Telford
 
 theme:
+
   name: material
 
   font: light 300
-
   features:
-    - header.autohide
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
@@ -17,8 +16,7 @@ theme:
 
     primary: teal
     accent: indigo
-
-  
+ 
   features:
     - navigation.tracking
     - navigation.instant
@@ -60,5 +58,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+copyright: Copyright &copy; 2022 John Telford
+
 
 
