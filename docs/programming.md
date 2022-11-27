@@ -46,7 +46,7 @@ Some are:
 
 ### Version Control System
 
-- [git](developmenttool.mds#git) commands
+- [git](developmenttools#git) commands
 
 - [GitHub](developmenttools#github) commands
 

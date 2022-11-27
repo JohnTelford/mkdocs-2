@@ -8,6 +8,8 @@ title: Team - Design
     
     Useful websites require the user experience and functionality be consistence and complement the content.
 
+!!! danger 
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
 
 ## Overview
 

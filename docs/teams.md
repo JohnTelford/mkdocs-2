@@ -9,7 +9,7 @@ title: Teams Overview
     Iterative Development Team members work together delivering their work to other teams during the life time of the website.
 
 !!! danger 
-    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
 
 
 ---

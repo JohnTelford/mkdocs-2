@@ -7,6 +7,9 @@ title: Team - Define
 
     Defining website prerequisites is the first steps in optimizing website costs.
 
+!!! danger 
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+
 ## Prerequisites
 
 The *Define* team prerequisites are: 
