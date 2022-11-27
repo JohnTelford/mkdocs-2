@@ -62,4 +62,5 @@ markdown_extensions:
 copyright: Copyright &copy; 2022 John Telford
 
 
+site_url: https://localhost:8000
 

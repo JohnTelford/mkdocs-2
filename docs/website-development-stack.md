@@ -67,8 +67,8 @@ flowchart TB
 
 	- **Developers:**  
 	
-		- **Local Repository**:  
-		Each developer has their own "Local Repository" that is derived, which can be updated with the approved changes in the "Remote Repository."
+    	- **Local Repository**:  
+			Each developer has their own "Local Repository" that is derived from the GitHub "Central Repository". It can be updated with the approved changes in the "Remote Repository."
 
 		- **VScode**  
   

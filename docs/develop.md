@@ -2,12 +2,13 @@
 title: Develop 
 ---
 
+
 !!! Abstract
     The *Develop* team translates the *Define* and *Design* teams processes into website pages using development languages creating website material such as text and graphics, and for configuring and using website development tools. Development languages are strict, nonhuman, and abstract logical structures. 
 
 
 !!! danger 
-    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.mddefect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
 
 
 ## Prerequisites
