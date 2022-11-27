@@ -64,7 +64,6 @@
 [Troika](programming#troika)
 [Troika](programming#troika)
 [Troika](programming#troika)
-[What is a static site generator?](https://www.cloudflare.com/learning/performance/static-site-generator/)
 [Docusaurus](https://docusaurus.io/)
 [React](https://reactjs.org/)
 [vscodelogo](/img/vscodelogo.png)
@@ -126,3 +125,18 @@
 [Defect Remediation Costs](defect_costs.md)
 [Preview](deploy#preview)
 [Preview Deployments](glossary#preview-deployments)
+![Apple](/img/AppleLogo.png)[Apple]
+![Linux](/img/LinuxLogo.jpeg)[Linux]
+![Microsoft](/img/MicrosoftLogo.png)[Microsoft]
+![Apple](/img/AppleLogo.png)[Apple]
+![Linux](/img/LinuxLogo.jpeg)[Linux]
+![Microsoft](/img/MicrosoftLogo.png)[Microsoft]
+![mdxLogo](/img/mdxLogo.png)[mdxLogo]
+![Web Material`](/img/material.png)[Web Material`]
+![ialogo](/img/ialogo.png)[ialogo]
+![ChronoSync](/img/CSLogo300.png)[ChronoSync]
+![vscodelogo](/img/vscodelogo.png)[vscodelogo]
+![Git Desk Top](/img/gitdesktop.png)[Git Desk Top]
+![ialogo](/img/ialogo.png)[ialogo]
+![bugFixChart](/img/bugFixChart.jpg)[bugFixChart]
+![Mug Shot](/img/mugShot.png)[Mug Shot]

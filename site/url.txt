@@ -17,7 +17,7 @@ develop.md:[Troika](programming#troika) and non troika programming languages suc
 develop.md:[What is a static site generator?](https://www.cloudflare.com/learning/performance/static-site-generator/)
 develop.md:[Docusaurus](https://docusaurus.io/) is a static site generator used to create and maintain websites. It builds a single-page application with fast client-side navigation, leveraging the full power of [React](https://reactjs.org/) to make websites
 developmenttools.md:[vscodelogo](/img/vscodelogo.png)
-developmenttools.md:[Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product.
+developmenttools.md:[Visual Studio Code](https://code.visualstudio.com) *VScode* is a [Microsoft](https://www.microsoft.com/en-us/) product.
 developmenttools.md:[VScode](#vscode) is the command and control center for the website development stack.
 developmenttools.md:[Troika](programming#troika) web programming materials
 developmenttools.md:[git](#git) and [GitHub](#github) to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)

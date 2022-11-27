@@ -76,13 +76,9 @@ There are computer repair services that are equipped to diagnosed and repaired L
 
 ## Microsoft
 
-<!--
-![Microsoft](/img/MicrosoftLogo.png)
--->
-
 <img src="/img/MicrosoftLogo.png" width="100"/>
 
-Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
+[Microsoft](https://www.microsoft.com/en-us/). Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
 
 Consumer versions of Windows were originally designed for ease-of-use on a single-user PC without a network connection, and did not have security features built in from the outset. Windows updates are regularly improving security.
 
