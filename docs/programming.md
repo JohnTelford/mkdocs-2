@@ -18,8 +18,8 @@ Instead of artificially separating technologies by putting markup and logic in s
 
 ### Markdown
 
-![mdxLogo](/img/mdxLogo.png)
-
+<!-- ![mdxLogo](/img/markdownlogo.png) -->
+<img src="/img/markdownlogo.png" width="100" />
 
 Markdown is a faster way of creating and maintaining website material. It is a HTLM abstraction that is compiled to web standard [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 

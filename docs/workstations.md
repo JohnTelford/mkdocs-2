@@ -54,7 +54,7 @@ Operating systems updates have been free for years, and Apple continues to have 
 ![Linux](/img/LinuxLogo.jpeg)
 -->
 
-<img src="/img/LinuxLogo.jpeg" width="100" />
+<img src="/img/LinuxLogo.png" width="100" />
 
 [Linux](https://www.linux.org/) is an examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses
 
@@ -78,7 +78,7 @@ There are computer repair services that are equipped to diagnosed and repaired L
 
 <img src="/img/MicrosoftLogo.png" width="100"/>
 
-[Microsoft](https://www.microsoft.com/en-us/). Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
+[Microsoft](https://www.microsoft.com/en-us/) Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
 
 Consumer versions of Windows were originally designed for ease-of-use on a single-user PC without a network connection, and did not have security features built in from the outset. Windows updates are regularly improving security.
 
@@ -90,3 +90,6 @@ There are computer repair services that are equipped to diagnosed and repaired W
 
 ---
 
+
+
+[def]: https://www.microsoft.com/en-us/
