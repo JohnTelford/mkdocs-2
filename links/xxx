@@ -1,0 +1,94 @@
+workstations.md:Traditionally these companies built workstation products with Intel processors. They are diversifying their product line with [ARM-based](https://en.wikipedia.org/wiki/ARM_architecture) and [RISC-architecture](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) processors
+workstations.md:![Apple](/img/AppleLogo.png)
+workstations.md:[Apple](https://www.apple.com) is a computer manufacturing company delivering workstation products with Apple developed macOS certified UNIX operating systems.
+workstations.md:Apple recently released the first Mac products built with the ARM-based, Apple silicon designed, processors, and the macOS Big Sur operating system engineered to use [M1](https://en.wikipedia.org/wiki/Apple_M1) chip capabilities.
+workstations.md:![Linux](/img/LinuxLogo.jpeg)
+workstations.md:[Linux](https://www.linux.org/) is an examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses
+workstations.md:[Microsoft](https://www.microsoft.com/en-us/) Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
+teams.md:    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+teams.md:- Decisions about resources required for team developers working on features, fixes, or testing to deploy private [Preview](deploy#preview) Internet websites with their changes, without disturbing other developers work or the production version.  See [Preview Deployments](glossary#preview-deployments)
+siteoverview.md:	This is done by developers working on website features, fixes, or testing, and deploying [Private](deploy#preview) Internet websites with their changes, without disturbing other developers work or the website production version. This enables the stakeholders to monitor progress and quickly give feedback, speeding up the development process.
+siteoverview.md:The core of Iterative Development is the [GitHub](git-github#gitHub) project central repository controlled by a team member gatekeeper.
+siteoverview.md:[GitHub](git-github#gitHub) is a Distributed Version Control Systems  enabling multiple team members to work separately and deploy their work to a private Internet websites for review, without having an impact on the work of others. [GitHub](git-github#gitHub) manages a central online web hosted project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes and team members comments.
+siteoverview.md:Each team member make changes to their local copy of the project repository, they deploy a private [Preview](deploy#preview)  Internet website for stakeholders to view and give feedback.
+siteoverview.md:The Google [PageSpeed Insights](https://pagespeed.web.dev/) website reports on the performance of websites for both mobile and desktop devices, and provides suggestions on how pages may be improved.
+siteoverview.md:The slightest errors or security issues will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website.
+siteoverview.md:![iterativedev](/img/iterativedev.png)
+website-development-stack.md:	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control, [MkDocs Marteral](https://squidfunk.github.io/mkdocs-material/) static site generator, [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
+website-development-stack.md:A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member [forks](git-github#fork) a copy of central project repository to their GetHub account and makes a [clone](glossary#clone) of it on their workstation.
+website-development-stack.md:- Each developer makes changes to their repository [clone](glossary#clone). They cannot directly make changes to the central repository.
+website-development-stack.md:	- They may deploy their local repository to a private [Preview](deploy#preview) Internet website for stakeholders to see and give feedback. 
+website-development-stack.md:- The process is managed using [GitHub for Teams](https://github.com/team). When stakeholders determine developers changes, defect fixes, or new features are ready, a GitHub [Pull Request](git-github#pull-request) is made by developers to the central project repository. 
+website-development-stack.md:	- Project team members and the gatekeeper are notified by GitHub of the [Pull Request](git-github#pull-request) request. They may examine, comment on, suggest possible changes, and test the code. 
+website-development-stack.md:	- Iterations of the central project repository may be deployed by the gatekeeper to a private [Preview](deploy#preview)  for stakeholders viewing. 
+website-development-stack.md:- The next step is each developer [Pulls](git-github#pull) the central repository changes and commits them to their local repository copy of the central project. This process keeps team members up to date on changes.
+programming.md:<!-- ![mdxLogo](/img/markdownlogo.png) -->
+programming.md:Markdown is a faster way of creating and maintaining website material. It is a HTLM abstraction that is compiled to web standard [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+programming.md:[VScode](http://127.0.0.1:8000/developmenttools/#vscode)
+programming.md:- [git](developmenttools#git) commands
+programming.md:- [GitHub](developmenttools#github) commands
+material.md:![Web Material](/img/material.png)
+material.md:This website is an example of using these application to create and maintain website Markdown text and [Troika](programming#troika) web programming materials.
+material.md:[iA Writer](#ia-writer) is a mirror of website Markdown text and [Troika](programming#troika) web programming materials in the local repository. iA Writer is where text material is changed or new text material is created, and kept synchronized with the local repository using ChronoSync.
+material.md:[iA Writer](https://ia.net/writer) is used to edit website material and blog posts. Using iA Writer is faster website material than using [VScode](#vscode) because of markdown features, focus, grammar features, and live preview.
+material.md:![ialogo](/img/ialogo.png)
+material.md:- [iA Writer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) is a Markdown Writing app:
+material.md:When one or more pages have been edited using iA Writer, the [ChronoSync](#chronosync) app is used to synchronize files from iA Writer to [VScode](#vscode) or visa versa. Since the iA Writer files are store in iCloud, they can be edited remotely using laptops, smart phones, or pads.
+material.md:![ChronoSync](/img/CSLogo300.png)
+material.md:> " [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) is a comprehensive toolkit for performing file synchronization "
+index.md:    This website created by [johntelford.com LLC](Company), is about optimizing website project life time costs using Iterative Development, and using static site generator for developing websites.
+index.md:    Development teams working on website features, fixes, or testing can deploy private [Preview](deploy#preview) Internet websites with their changes, without disturbing other developers work or the website production version, enabling stakeholders to monitor progress and quickly give feedback, speeding up the development process.
+index.md:    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+developmenttools.md:![vscodelogo](/img/vscodelogo.png)
+developmenttools.md:    [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product.
+developmenttools.md:    [VScode](#vscode) is the command and control center for the website development stack.
+developmenttools.md:- Editing Markdown and MDX text and [Troika](programming#troika) web programming materials
+developmenttools.md:- Use [git](#git) and [GitHub](#github) to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
+developmenttools.md:- [GitHub](#github) Repositories.  
+developmenttools.md:Remotely browse and edit any [GitHub](#github) repository
+developmenttools.md:Lorem text generator extension for [VScode](#vscode)
+developmenttools.md:- [VScode](#vscode)-icons  
+developmenttools.md:[VScode](#vscode) built-in git commands :
+developmenttools.md:    ![Git Desk Top](/img/gitdesktop.png)
+developmenttools.md:    - Git Desktop is an alternative to using [VScode](#vscode) built-in Git commands. It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. It is a Microsoft product available on Mac and Windows.
+developmenttools.md:    These [Git](#git) and [Github](#github) references contain concepts and commands:
+developmenttools.md:- [Version Control System](https://www.w3docs.com/learn-git/introduction4.html)
+developmenttools.md:- [VScode](#vscode) built-in gitg commands
+developmenttools.md:- [Git version-control tools in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/)
+developmenttools.md:- [Git and GitHub Introduction](https://www.w3schools.com/git/git_intro.asp?remote=github)
+developmenttools.md:- [Git](https://git-scm.com/book/en/v2)
+developmenttools.md:- [GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/)
+developmenttools.md:- [GitHub Desktop](https://docs.github.com/en/desktop)
+developmenttools.md:    The core technologies of Iterative Development are, [Git](#git) and GitHub. The central project repository is controlled by the project gatekeeper, and a content delivery network, like [Cloudflare](#deploy/cloudflare), where Internet production websites and individual team private [Preview](deploy#preview) Internet websites, are deployed.
+developmenttools.md:Team members use the [Website Development Stack](website-development-stack) to develop and deploy websites to the Internet.
+developmenttools.md:4. Periodically deploy local project repository to a private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+developmenttools.md:The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private [Preview ](deploy#preview) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
+developmenttools.md:[Git Tutorial](https://www.w3schools.com/git/default.asp?remote=github)
+developmenttools.md:[Git GitHub Fork](https://www.w3schools.com/git/git_remote_fork.asp?remote=github)
+developmenttools.md:A *fork* is a copy of the project repository in a team member's GitHub account. Forks let team members make changes to a project without affecting the original repository or other team members. Team members can fetch updates from the project repository with a [pull](#pull) command
+developmenttools.md:[Fork a Repo](https://docs.github.com/en/enterprise-server@3.4/get-started/quickstart/fork-a-repo)
+developmenttools.md:[Git Clone from GitHub](https://www.w3schools.com/git/git_clone.asp?remote=github)
+developmenttools.md:[Commits](#commits) keep the team member local project repository up to date on the workstation and on GitHub. If the workstation copy is damaged, the latest commit can be cloned from GitHubto the workstation.
+developmenttools.md:[Git Branch](https://www.w3schools.com/git/git_branch.asp?remote=github)
+developmenttools.md:![ialogo](/img/ialogo.png)
+developmenttools.md:- [iA Writer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) is a Markdown Writing app:
+developmenttools.md:When one or more pages have been edited using [iA Writer](#ia-writer), the  [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) Mac app is used to synchronize files between iA Writer and the local repository. Since the  iA Writer files are store in iCloud, they are available for editing using supported devices when there is an internet connection.
+develop.md:    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+develop.md:The [Troika](programming#troika) of [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/oyn-US/docs/Web/CSS), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) website programming languages have become standard for creating website pages. Web browser interprets the standard [Troika](programming#troika) languages and renders the website.
+develop.md:The job of a static site generators is compile the website pages written in[Troika](programming#troika) and non troika programming languages such as Markdown, into a single file containing a combination of standard [Troika](programming#troika) languages web for browsers to interpret.
+develop.md:[What is a static site generator?](https://www.cloudflare.com/learning/performance/static-site-generator/)
+develop.md:[Docusaurus](https://docusaurus.io/) is a static site generator used to create and maintain websites. It builds a single-page application with fast client-side navigation, leveraging the full power of [React](https://reactjs.org/) to make websites
+define.md:    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+define.md:The teams deploy private [Preview](deploy#preview) websites for stakeholders review while creating new, updating, fixing, or exploring new features.
+define.md:- When stakeholders agree the website *Musts* functionalities are operational, then it is a [Minimum Viable Product](siteoverview#minimum-viable-product).
+design.md:    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+design.md:This website is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+design.md:There are several other [Development Frameworks](https://squidfunk.github.io/mkdocs-material/alternatives/) website static site generators are available for website development.
+design.md:Checkout the Material for MkDocs [Philosophy](https://squidfunk.github.io/mkdocs-material/philosophy/).
+design.md:- Material for MkDocs is a theme for [MkDocs](https://www.mkdocs.org/).
+design.md:- See [Create a Site](creating site.md). Follow the instructions to quickly creating a demo Material fo MkDocs website.
+defect_costs.md:![bugFixChart](/img/bugFixChart.jpg)
+defect_costs.md:- [VScode](developmenttools#vscode) editor tool extensions continually check for syntax and other errors
+defect_costs.md:- Team members deploy their copy of the project repository with their changes, to private websites where stakeholders can see them and give feedback.  See [Preview Deployments](glossary#preview-deployments)
+creating site.md:    This site is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+contact.md:![Mug Shot](/img/mugShot.png)
