@@ -1,16 +1,1155 @@
-diagrams.md
-defect_costs.md
-creating site.md
-contact.md
-develop.md
-workstations.md
-company.md
-developmenttools.md
-website-development-stack.md
-index.md
-define.md
-material.md
-design.md
-siteoverview.md
-programming.md
-teams.md
+
+# Company
+
+---
+
+!!! Note
+     I am the sole proprietor of *JohnTelford.com LLC* technology consulting company, working with client  development projects for more that 30 years.
+
+---
+
+## Collaboration
+
+A seasoned, knowledgeable, industry professional, Electronics, Software, and Web Engineer specializing in web hardware and software technology disciplines, Architecture, Architecture, and Deployment.
+
+- Practitioner with extensive experience across most IT functional groups
+- Ability to effectively collaborate to accomplish multidiscipline goals:
+  - Senior management teams
+  - External and internal clients
+  - Functional groups
+  - Individual contributors
+  - Vendors
+
+---
+
+## Nuggets
+Way back when the Internet web browsers and programming languages came along, I became interested in web technologies, and began learn by doing technology deep dives. I have years of learning ever changing Electronics, Internet, and Software technologies by hands-on experiencing the technologies du jour.
+
+I have a passion pursuing what’s new and improved with these industries. Checking out what’s new or not, a pipe dream or not, or what’s new and improved, is like panning for gold. Buried within the mountains of info rubble produced daily, every so often one finds interesting technology nuggets making the effort worthwhile. I use the (http://techtalkjohn.com/hypecurve) as a guide.
+
+---
+title: Contact
+---
+
+!!! note
+
+    A labyrinth symbolizes possible difficulties reaching website project goals.  
+    My knowledge and experience with website technology disciplines may be helpful.
+
+
+![Mug Shot](/img/mugShot.png)
+
+John Telford  
+Portland, Oregon  
+JohnTelford.com LLC
+
+phone : text : 503-312-7248
+<p><a href="mailto:john.telford@proton.me">Email</a></p>
+
+---
+
+# Creating a Site
+
+!!! note
+
+    This site is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+    - It's just Markdown  
+    Focus on the content of your documentation and create a professional static site in minutes. No need to know HTML, CSS or JavaScript – let Material for MkDocs do the heavy lifting for you.
+
+    - Works on all devices  
+    Serve your documentation with confidence – Material for MkDocs automatically adapts to perfectly fit the available screen estate, no matter the type or size of the viewing device. Desktop. Tablet. Mobile. All great.
+
+```pip install mkdocs-material```
+
+This will automatically install compatible versions of all dependencies: MkDocs, Markdown, Pygments and Python Markdown Extensions. Material for MkDocs always strives to support the latest versions, so there's no need to install those packages separately.
+
+```mkdocs build```
+
+```mkdocs serve```
+---
+title: Defect Remediation Costs
+---
+
+---
+
+The highest cost over the life time of website projects is remediating defects.
+
+Content and software defects cost less when found early, as this chart shows:
+
+![bugFixChart](/img/bugFixChart.jpg)
+
+
+
+The early defect detection mechanisms built into iterative development and a static site generator are:
+
+- [VScode](developmenttools#vscode) editor tool extensions continually check for syntax and other errors
+
+- Fast refresh live-editing quickly showing changes and any runtime errors while typing
+
+- Team members deploy their copy of the project repository with their changes, to private websites where stakeholders can see them and give feedback.  See [Preview Deployments](glossary#preview-deployments)
+
+---
+---
+title: Team - Define
+---
+
+!!! Define
+    Defining websites helps the *Iterative Development* teams and stakeholders understand the project.
+
+    Defining website prerequisites is the first steps in optimizing website costs.
+
+!!! danger 
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+
+## Prerequisites
+
+The *Define* team prerequisites are: 
+- Defining what the project is about
+- Funding
+- Purpose
+- Functionality
+- Stakeholders
+- Content
+- The *musts* and *wants* features
+- The *security* requirements
+
+### Purpose
+
+Knowing the purpose of the website project helps separate goals into *musts* and *wants*
+
+### Project Funding
+
+Project funding is a primary factor in the success of website projects. It enables teams to have skilled people, equipment, and tools.
+
+### Website Type
+
+Is the website:
+
+- Brochureware ?  
+>Websites or web pages produced by directly adapting a company's printed marketing or advertising material.
+- Commerce ?
+- Something else ?
+
+
+### Stakeholders
+
+Who are the stakeholders?
+
+The teams deploy private [Preview](deploy#preview) websites for stakeholders review while creating new, updating, fixing, or exploring new features.
+
+### Musts and Wants Functionality
+
+- When stakeholders agree the website *Musts* functionalities are operational, then it is a [Minimum Viable Product](siteoverview#minimum-viable-product).
+
+- When stakeholders agree the website *Wants* functionalities are operational, the website is production quality and ready to be deployed to the Internet.
+
+### Website material
+
+- What is the website message ?
+
+- What existing and new website material will be in website pages?
+
+### Security
+
+- What are the website security needs?
+
+---
+---
+title: Team - Design
+---
+
+
+!!! Design
+    Website *Design* is creating website look and feel.
+    
+    Useful websites require the user experience and functionality be consistence and complement the content.
+
+!!! danger 
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+
+## Overview
+
+The core foundations of a user's website experience are:
+
+- **Fast** - Website responds quickly to user interactions with smooth scrolling.
+
+- **Integrated** - The website uses the full capabilities of the user device to create an experience true to the device.
+
+- **Reliable** - Loads quickly and reliably even in uncertain network conditions.
+
+- **Engaging** - Keeps user coming back to a website that is designed to look and feel natural.
+
+---
+
+## Prerequisites
+
+Website design prerequisites are making decisions:
+
+- Website Design
+- Consistency
+- Theme
+- Color Scheme
+- Typology
+- Navigation
+- User interaction
+---
+
+### Material for MkDocs
+
+Together, MkDocs and Material for MkDocs are among the most popular options when it comes to choosing a static site generator and theme
+
+This website is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+There are several other [Development Frameworks](https://squidfunk.github.io/mkdocs-material/alternatives/) website static site generators are available for website development.
+
+Checkout the Material for MkDocs [Philosophy](https://squidfunk.github.io/mkdocs-material/philosophy/).
+
+- Material for MkDocs is a theme for [MkDocs](https://www.mkdocs.org/).
+- See [Create a Site](creating site.md). Follow the instructions to quickly creating a demo Material fo MkDocs website.
+---
+
+## Responsive Website Design
+
+The majority of users access websites using mobile devices. They and others have little tolerance for slow loading website pages or pages that do not conform to their screen size.
+
+- Website design:
+
+  - Ensures pages load quickly
+  - Website pages are display correctly on a variety of devices and window or screen size
+  - The website look and feel, users experience, and functionality are consistently maintain.
+
+- Consistency  
+  Website consistency is the look and feel of the site. The users experience, and functionality does not vary between website pages.
+
+---
+
+## Theme
+
+The website theme is:
+
+- Color scheme
+- Header
+- Pages
+- Fonts
+- Footer
+- Typology
+- Navigation
+- User interaction
+
+---
+---
+title: Develop 
+---
+
+
+!!! Abstract
+    The *Develop* team translates the *Define* and *Design* teams processes into website pages using development languages creating website material such as text and graphics, and for configuring and using website development tools. Development languages are strict, nonhuman, and abstract logical structures. 
+
+
+!!! danger 
+    The slightest errors or security issues during development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+
+
+## Prerequisites
+
+- Decisions about resources required to transform the *Define* and *Design* work into a website and infrastructure.
+- Decisions about using a static site generator and programming tools.
+
+---
+
+## Static Site Generators
+
+The [Troika](programming#troika) of [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/oyn-US/docs/Web/CSS), and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) website programming languages have become standard for creating website pages. Web browser interprets the standard [Troika](programming#troika) languages and renders the website.
+
+The job of a static site generators is compile the website pages written in[Troika](programming#troika) and non troika programming languages such as Markdown, into a single file containing a combination of standard [Troika](programming#troika) languages web for browsers to interpret.
+
+Web browsers loads the website single file from the deployment server, interprets and renders website pages.
+
+Reference
+[What is a static site generator?](https://www.cloudflare.com/learning/performance/static-site-generator/)
+
+## Docusaurus
+
+[Docusaurus](https://docusaurus.io/) is a static site generator used to create and maintain websites. It builds a single-page application with fast client-side navigation, leveraging the full power of [React](https://reactjs.org/) to make websites
+
+---
+---
+title: Develpopment Tools
+---
+
+## VScode 
+
+<!--
+![vscodelogo](/img/vscodelogo.png)
+-->
+
+<img src="/img/vscodelogo.png" width="100"/>
+
+!!! info
+
+    [Visual Studio Code](https://code.visualstudio.com) (VScode) is a Microsoft product.
+
+    It has become the goto editor for many. It is free, built on open source, and runs everywhere.
+
+    [VScode](#vscode) is the command and control center for the website development stack.
+
+The development command and control tasks are:
+
+- Editing Markdown and MDX text and [Troika](programming#troika) web programming materials
+- Use [git](#git) and [GitHub](#github) to manage project files. [Git](#git) is built-in and optimized to work with Microsoft [GitHub](#github)
+- Editor tool extensions continually check for syntax and other errors
+- Live edit browser previews show how edits will look when deployed
+- Deploy secure website previews to the Internet for stakeholders
+- Deploy production website to the Internet
+- Built-in command shell
+- And **much** more
+
+### Extensions
+
+Useful extensions are:
+
+- Dark+ Material.  
+The default Dark+ theme, using Material's color palette
+
+- ESlint.  
+Integrates ESLint JavaScript into VS Code
+
+- [GitHub](#github) Repositories.  
+Remotely browse and edit any [GitHub](#github) repository
+
+- Lorem Text Generator  
+Lorem text generator extension for [VScode](#vscode)
+
+-  Markdown All in One  
+All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more)
+
+- Rainbow Brackets  
+Provide rainbow colors for the round brackets, the square brackets and the squiggly brackets
+
+- Todo Tree  
+This extension quickly searches the local repository workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar
+
+- [VScode](#vscode)-icons  
+Icons for Visual Studio Code
+
+#### Git Client
+
+[VScode](#vscode) built-in git commands :
+
+ - Review diffs, 
+ - Stage files
+ - Make commits
+ - Push 
+ - pull
+ - and more
+
+## Git Desktop
+
+!!! info
+    ![Git Desk Top](/img/gitdesktop.png)
+
+    - Git Desktop is an alternative to using [VScode](#vscode) built-in Git commands. It abstract [Github](#github) and more [Git](#git) commands. It interacts with GitHub using a GUI instead of the command line or a web browser. It is a Microsoft product available on Mac and Windows.
+
+    - Visual Studio Code is recommended for most people. 
+
+---
+
+## Git and GitHub References
+
+!!! info
+
+    These [Git](#git) and [Github](#github) references contain concepts and commands:
+
+- [Version Control System](https://www.w3docs.com/learn-git/introduction4.html)
+- [VScode](#vscode) built-in gitg commands
+- [Git version-control tools in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/use-git-from-vs-code/)
+- [Git and GitHub Introduction](https://www.w3schools.com/git/git_intro.asp?remote=github)
+- [Git](https://git-scm.com/book/en/v2)
+- [GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/)
+- [GitHub Desktop](https://docs.github.com/en/desktop)
+
+
+## GitHub
+
+!!! info
+
+    <img src="/img/gitHublogo.png" width="100"/>
+
+    The core technologies of Iterative Development are, [Git](#git) and GitHub. The central project repository is controlled by the project gatekeeper, and a content delivery network, like [Cloudflare](#deploy/cloudflare), where Internet production websites and individual team private [Preview](deploy#preview) Internet websites, are deployed.
+
+    GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+!!! Question
+
+    GitHub helps answer the questions for the lifetime of the project *who changed what, where, when, and why?* 
+
+Team members use the [Website Development Stack](website-development-stack) to develop and deploy websites to the Internet.
+
+### The GitHub Workflow
+
+GitHub workflow is centered on Pull Request The GitHub workflow works with collaborating team members contributing to the central project repository using the Forks. It is centered on the topic Branches workflow.
+
+A summary of GitHub workflow for each team member is:
+
+1. Fork the central project repository creating a local project repository in individual team members GitHub account
+2. Clone the forked local project repository in team member GitHub account to workstation
+1. Creates a topic Branch off the cloned local project repository *main* branch
+1. Make topic edits and commits 
+2. Push after each commit to the cloned local project repository in GitHub account
+3. Periodically Pull from the central project repository. The *develop* branch will have merged accepted Pull Requests
+4. Periodically deploy local project repository to a private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+4. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
+1. Team members discuss, and optionally continue committing on Pull Requests.
+
+The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private [Preview ](deploy#preview) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
+
+Teams may Pull the central project repository at anytime to view and test other topic branches.
+
+---
+
+## Git
+
+<img src="/img/gitlogo.png" width="100"/>
+
+[Git Tutorial](https://www.w3schools.com/git/default.asp?remote=github)
+
+### Fork
+
+[Git GitHub Fork](https://www.w3schools.com/git/git_remote_fork.asp?remote=github)
+
+A *fork* is a copy of the project repository in a team member's GitHub account. Forks let team members make changes to a project without affecting the original repository or other team members. Team members can fetch updates from the project repository with a [pull](#pull) command
+
+ Forks are used to either propose changes to someone else's project to which you do not have write access, or to use someone else's project as a starting point for your own idea. You can fork a repository to create a copy of the repository and make changes without affecting the upstream repository
+
+Forking a repository is similar to copying a repository, with two major differences:
+
+- You can use a pull request to suggest changes from your user-owned fork to the original repository in its GitHub instance, also known as the upstream repository.
+
+- You can bring changes from the upstream repository to your local fork by synchronizing your fork with the upstream repository.
+
+[Fork a Repo](https://docs.github.com/en/enterprise-server@3.4/get-started/quickstart/fork-a-repo)
+
+### Clone
+
+[Git Clone from GitHub](https://www.w3schools.com/git/git_clone.asp?remote=github)
+
+A clone is a full copy of a repository, including all logging and versions of files, copied from the team member GitHub account to team member workstation.
+
+[Commits](#commits) keep the team member local project repository up to date on the workstation and on GitHub. If the workstation copy is damaged, the latest commit can be cloned from GitHubto the workstation.
+
+### Branch
+
+[Git Branch](https://www.w3schools.com/git/git_branch.asp?remote=github)
+
+Creating a branch is to safely diverge from a line of development and continuing on another. An example is creating a branch create a feature or to test a radical idea
+
+Branching enables working on different parts of a project without impacting other branches. Work on a branch can be merged with other project branches. 
+
+Switching between branches and work on different projects without them interfering with each other. Branching in Git is lightweight and fast!
+
+### Checkout
+
+### Switch 
+
+Switches to a new branch
+
+A quick way of switching branch on Git is to use the `git switch` command and specify the name of the branch you want to switch.
+
+If the destination branch does not exist, you have to specify the “-c” option (for “create branch“), otherwise you will get an error message when switching to that branch.
+
+$ git switch <existing_branch>
+
+$ git switch -c <non_existing_branch>
+Again, as an example, let’s say that you want to switch to the “feature” branch from the “master” branch.
+
+In order to switch from the “master” branch to the “feature” branch, use the “git switch” command and specify the destination branch (which is “feature” in this case)
+
+$ git switch feature
+switch branch using git switch
+On the other hand, if you try to switch to a non existing branch, you will get the following error message
+
+$ git switch non-existing-branch
+
+fatal: invalid reference: non-existing-branch
+To solve this error, make sure to append the “-c” option to the “git switch” command to specify that you want to switch to a new branch.
+
+$ git switch -c non-existing-branch
+
+Switched to a new branch 'non-existing-branch'
+Congratulations, you have now successfully switched to another branch and you can start working on it.
+
+
+## iA Writer
+
+Editing Markdown / MDX website pages and blog posts using iA Writer is faster because of focus and grammar features with live preview.
+
+<!--
+![ialogo](/img/ialogo.png)
+-->
+
+<img src="/img/ialogo.png" width="100"/>
+
+- [iA Writer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) is a Markdown Writing app:
+    - Faster way to write MD website material 
+    - Extensive Style Check
+    - Focus
+        - Sentence
+        - Paragraph
+    - Available for Mac, iOS, Windows, and Android
+
+ The Mac iA Writer stores files in iCloud. They are available for editing using supported devices when there is an internet connection.
+
+---
+
+## Chronosync
+
+<img src="/img/CSLogo300.png" width="100"/>
+
+When one or more pages have been edited using [iA Writer](#ia-writer), the  [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) Mac app is used to synchronize files between iA Writer and the local repository. Since the  iA Writer files are store in iCloud, they are available for editing using supported devices when there is an internet connection.
+
+If edits have been made to files the local repository, use ChronoSync to synchronize them to iA Writer.
+
+---
+
+
+## Diagrams
+
+---
+
+### Sequence
+
+``` mermaid
+sequenceDiagram
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```
+
+---
+
+### Graph
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+---
+
+### State
+
+``` mermaid
+stateDiagram-v2
+  state fork_state <<fork>>
+    [*] --> fork_state
+    fork_state --> State2
+    fork_state --> State3
+
+    state join_state <<join>>
+    State2 --> join_state
+    State3 --> join_state
+    join_state --> State4
+    State4 --> [*]
+```
+
+----
+
+### Class
+
+``` mermaid
+classDiagram
+  Person <|-- Student
+  Person <|-- Professor
+  Person : +String name
+  Person : +String phoneNumber
+  Person : +String emailAddress
+  Person: +purchaseParkingPass()
+  Address "1" <-- "0..1" Person:lives at
+  class Student{
+    +int studentNumber
+    +int averageMark
+    +isEligibleToEnrol()
+    +getSeminarsTaken()
+  }
+  class Professor{
+    +int salary
+  }
+  class Address{
+    +String street
+    +String city
+    +String state
+    +int postalCode
+    +String country
+    -validate()
+    +outputAsLabel()  
+  }
+```
+
+---
+
+### Entity-relationship
+
+``` mermaid
+erDiagram
+  CUSTOMER ||--o{ ORDER : places
+  ORDER ||--|{ LINE-ITEM : contains
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+
+---
+
+<!-- Cloudflare Depolyment Notes 
+ pip freeze > requirements.txt
+-->
+
+
+
+---
+
+# Iterative Development
+
+!!! Version
+    Version: 0.1.1
+
+---
+
+!!! Abstract
+
+    Creating and maintaining websites that meet users needs are, complex, difficult, and time consuming.
+
+    ## Introduction
+
+    This website created by [johntelford.com LLC](Company), is about optimizing website project life time costs using Iterative Development, and using static site generator for developing websites.
+
+    Development teams working on website features, fixes, or testing can deploy private [Preview](deploy#preview) Internet websites with their changes, without disturbing other developers work or the website production version, enabling stakeholders to monitor progress and quickly give feedback, speeding up the development process.
+
+    ---
+
+    This website is being created and maintained by the technologies described.
+
+!!! danger 
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+
+---
+---
+slug: material
+title: Website Material
+---
+
+![Web Material](/img/material.png)
+
+This website is an example of using these application to create and maintain website Markdown text and [Troika](programming#troika) web programming materials.
+
+[iA Writer](#ia-writer) is a mirror of website Markdown text and [Troika](programming#troika) web programming materials in the local repository. iA Writer is where text material is changed or new text material is created, and kept synchronized with the local repository using ChronoSync.
+
+Using iA Writer for editing website material and using Chronosync to synchronizing with the Local Repository seems faster with less errors.
+
+### iA Writer
+
+> "iA Writer offers a unique writing experience that lets you concentrate and clarify your message. Used by half a million people worldwide, its powerful interface is crafted to cut out noise, let you focus on what you want to say, and help you structure and trim your text."
+
+[iA Writer](https://ia.net/writer) is used to edit website material and blog posts. Using iA Writer is faster website material than using [VScode](#vscode) because of markdown features, focus, grammar features, and live preview.
+
+![ialogo](/img/ialogo.png)
+
+- [iA Writer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) is a Markdown Writing app:
+  - Faster way to write MDX website material
+  - Extensive Style Check
+  - Focus
+    - Sentence
+    - Paragraph
+  - Available for Mac, iOS, Windows, and Android
+
+When one or more pages have been edited using iA Writer, the [ChronoSync](#chronosync) app is used to synchronize files from iA Writer to [VScode](#vscode) or visa versa. Since the iA Writer files are store in iCloud, they can be edited remotely using laptops, smart phones, or pads.
+
+Sometimes in the heat of development or defect remediation, changes are made to files in the local repository. Chronosync is used to be synchronized the Local Repository with iA Writer .
+
+## Chronosync
+
+![ChronoSync](/img/CSLogo300.png)
+
+> " [ChronoSync](https://www.econtechnologies.com/chronosync/overview.html) is a comprehensive toolkit for performing file synchronization "
+
+ChronoSync is used to keep iA Write and the local repository in sync.
+
+---
+---
+id: programming
+title: Programming
+---
+
+## Languages
+
+---
+
+
+
+
+
+React embraces the fact that rendering logic is inherently coupled with other UI logic: how events are handled, how the state changes over time, and how the data is prepared for display.
+Instead of artificially separating technologies by putting markup and logic in separate files, React separates concerns with cohesive components that contain both.
+
+---
+
+### Markdown
+
+<!-- ![mdxLogo](/img/markdownlogo.png) -->
+<img src="/img/markdownlogo.png" width="100" />
+
+Markdown is a faster way of creating and maintaining website material. It is a HTLM abstraction that is compiled to web standard [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+John Gruber published the original Markdown Syntax Guide. Different flavors of Markdown have evolved since then.
+
+"Markdown is a better way to write HTML. It is compiled into HTML at deploy time. Markdown is a lightweight plaintext markup language used to add formatting elements to documents. Markdown is now one of the world’s popular markup languages. Using Markdown is different from using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown is not like that. In a Markdown-formatted file. Markdown syntax is added to the text to indicate which words and phrases look different."
+
+Markdown has been characterized by an informal specification and a reference implementation for conversion to HTML. Over time, many Markdown implementations have appeared. They are driven by the need for additional features like tables, footnotes, definition lists, and HTML inside Markdown blocks. The behavior of additional features diverge from the reference implementation and informal specification, and have attracted attention. Not all flavors of Markdown are compatible or supported by all frameworks.
+
+I'm hesitant creating website material without using a version of Markdown.
+
+---
+
+## Other Languages
+
+!!! Abstract
+    Other languages  are frequently needed to create and deploy websites
+
+Some are:
+
+### Editor commands
+
+[VScode](http://127.0.0.1:8000/developmenttools/#vscode)
+
+### Version Control System
+
+- [git](developmenttools#git) commands
+
+- [GitHub](developmenttools#github) commands
+
+### Static Static Site Generator commands
+
+### Deploy commands
+
+
+---
+---
+title: Overview
+---
+
+!!! Abstract
+
+	This website discusses optimizing website project life time costs. It describes using a static site generator for developing websites. It is based on *Iterative Development* and *Web Component Technologies*.
+
+	The basic idea of *Iterative Development* is to develop websites through repeated cycles (iterative) and in smaller portions at a time (incremental), enabling iterative development teams to take advantage of what was learned during development of earlier features or versions of the system. 
+
+	Iterative web development teams working together help optimizing website costs and lowering the difficulties creating websites.
+
+	This is done by developers working on website features, fixes, or testing, and deploying [Private](deploy#preview) Internet websites with their changes, without disturbing other developers work or the website production version. This enables the stakeholders to monitor progress and quickly give feedback, speeding up the development process.
+
+---
+
+
+## Steps
+
+- Teams Prerequisites
+	- Define
+	- Design
+	- Develop
+	- Maintain
+
+
+
+---
+
+The core of Iterative Development is the [GitHub](git-github#gitHub) project central repository controlled by a team member gatekeeper.
+
+[GitHub](git-github#gitHub) is a Distributed Version Control Systems  enabling multiple team members to work separately and deploy their work to a private Internet websites for review, without having an impact on the work of others. [GitHub](git-github#gitHub) manages a central online web hosted project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes and team members comments.
+
+> During the lifetime of the project, it helps answer the questions *who changed what, where, when, and why?* 
+
+---
+
+Deploy working iterations of a software development solutions involving stakeholders at all phases of the development process
+
+Each team member make changes to their local copy of the project repository, they deploy a private [Preview](deploy#preview)  Internet website for stakeholders to view and give feedback.
+
+Producing website functional iterations, it can tested, examined, and adjusted on an ongoing basis.
+
+The repository guardian and other team members evaluate and approve team members change requests to the central repository. Added change requests are deployed to a private preview Internet website for stakeholders to preview and give feedback. This process continues until stakeholders agree the website is ready for a public deployment.
+
+This process is more efficient than creating a website and hoping it meets the needs of stakeholders, and finding out the website needs to be redesign from the ground up because one or more critical requirements were overlooked.
+
+---
+
+## Difficulties
+
+Creating and maintaining websites that meet users needs are difficult, complex, and time consuming.
+
+When website development defects are mitigated early in development, life time website costs are lower.
+
+### Slow
+
+The Google [PageSpeed Insights](https://pagespeed.web.dev/) website reports on the performance of websites for both mobile and desktop devices, and provides suggestions on how pages may be improved.
+
+Google reports mobile website pages load within 22 seconds on average. However, 53 percent of mobile users will leave a page that takes longer than 3 seconds to load.
+
+### Content
+
+People visit websites for content. They have little interest in how the content is created or how it gets to their screen. Everyone wants websites pages to load quickly and conforming to their screen size. The website look and feel, users experience, functionality, needs to be consistent and complement the content.
+
+---
+
+## Iterative Development Teams
+
+
+Website development teams working together deliver their work to other teams during the website life time.
+
+The slightest errors or security issues will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website.
+
+![iterativedev](/img/iterativedev.png)
+
+**Iterative website development Teams**
+
+Iterative website development enables the *Define, Design, Develop, Deploy and Maintain* team members to be operational at the same time creating, testing, and remediating defects.
+
+
+---
+
+## Minimum Viable Product
+
+The first goal of website development projects is a *Minimum Viable Product*. 
+
+It is a way to understand whether the website project idea will work or not. It is a stage in website development where the *must* features are implemented and ready to test with end-users. It gives feedback about the positive aspects and shortcomings.
+
+The next steps are adding the *want* features, until stakeholders agree the website is production quality and ready to be deployment.
+
+---
+
+---
+title: Teams Overview
+---
+
+# Iterative Development Teams
+
+!!! Abstract
+
+    Iterative Development Team members work together delivering their work to other teams during the life time of the website.
+
+!!! danger 
+    The slightest errors or security issues during website development will require [Defect Remediation Costs](defect_costs.md) sometime during the life time of the website. The highest cost over the life time of website projects is remediating defects.
+
+---
+
+## Development Teams
+
+``` mermaid
+graph TD
+    dev --- def
+    dev --- des
+    dev --- dep
+    dev --- mnt
+    def --- des
+    dep --- mnt
+
+    dev([Development])
+    def([Define])
+    des([Design])
+    dep([Deploy])
+    mnt([Maintenance])
+
+```
+
+!!! note
+
+    Iterative website development enables the *Define, Design, Develop, Deploy and Maintain* teams to be operational at the same time creating, testing and remediating website defects.
+
+---
+
+## Teams Prerequisites
+
+### Define
+
+The *Define* team prerequisites are: 
+- Defining what the project is about
+- Funding
+- Purpose
+- Functionality
+- Stakeholders
+- Content
+- The *musts* and *wants* features
+- The *security* requirements
+
+### Design
+
+The *Design* team prerequisites are:
+- Decisions about Website Design
+- Consistency
+- Theme
+- Color Scheme
+- Typology
+- Navigation
+- User interaction.
+
+### Develop
+
+The *Develop* team prerequisites are: 
+- Decisions about resources required to transform the *Define* and *Design* work into a website and infrastructure. 
+- Decisions about using a static site generator and programming tools.
+
+### Deploy
+
+The Deploy team prerequisites are: 
+- Decisions about resources required for deploying production version of the website to the Internet.
+- Decisions about resources required for team developers working on features, fixes, or testing to deploy private [Preview](deploy#preview) Internet websites with their changes, without disturbing other developers work or the production version.  See [Preview Deployments](glossary#preview-deployments)
+
+### Maintain
+
+The *Maintain* team prerequisites are: 
+- Decisions about remediating deployed websites *Define*, *Design*,*Develop*, *Deploy*, or *Security* defects.
+- Organizing members from other teams to be part of the *Maintain* team while remediating specific defects.
+
+---
+---
+slug: webdevstack
+title: Website Development Stack
+---
+
+!!! Abstract 
+
+	The *Iterative Website Development Stack* illustrates how websites are developed and deployed to the Internet. It is web browser agnostic. What works for big screens, works for small screens.
+
+
+--
+
+
+
+``` mermaid
+flowchart TB
+	
+	crepo --- cdn
+
+	cdn --- net
+
+	dev --- vsc 
+
+	github --- crepo
+
+	github --- cdn
+
+	github --- net
+	
+	vsc --- lrepo
+	
+	net --- prevweb
+
+	net --- proweb
+
+	vsc --- net
+
+	vsc --- mkd
+
+	dev([Developers])
+
+	cdn([CDN - Deploy Website to Web])
+
+	crepo([Central Repository])
+
+	github([GitHub]) 
+
+	lrepo([Local Repository])
+
+	mkd([Mkdocs Material - Static Site Generator])
+
+	net([Internet]) 
+	
+	prevweb([Preview - Web Sites])
+
+	proweb([Production - Web Site])
+
+	vsc([VScode - Command and Control]) 
+
+```
+
+### Website Development Stack
+
+!!! Overview
+
+	The key *Iterative Development* technologies are [VScode](https://code.visualstudio.com/) for command and control, [MkDocs Marteral](https://squidfunk.github.io/mkdocs-material/) static site generator, [GitHub](git-github#github), [git](git-github#git), and a [Content Delivery Network (CDN)](https://en.wikipedia.org/wiki/Content_delivery_network) like [Cloudflare](https://www.cloudflare.com)
+
+	- **Developers:**  
+	
+    	- **Local Repository**:  
+			Each developer has their own "Local Repository" that is derived from the GitHub "Central Repository". It can be updated with the approved changes in the "Remote Repository."
+
+		- **VScode**  
+  
+        	- Developers us VSCode as their Web Development Stack Command and Control center, and project editor
+
+		- **MkDocs Material**  
+  
+    		- Is "Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview
+  
+  		-  **GitHub**
+	
+          	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+      		
+      		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+      		- The "Central Repository" is managed my a team member
+
+				>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?
+
+  
+  - Website" for stake holders. The same "MkDocs Static Site Generator" tools are used to create the "Production Website" by the "CDN - Deploy Website to Web"
+
+
+- GitHub  
+    - Central Repository.  
+	
+    	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+		
+		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
+
+		- The "Central Repository" is managed my a team member
+
+		>It helps answer the questions for the lifetime of the project who changed what, where, when, and why?
+
+
+
+---
+
+
+
+Team members use the Website Development Stack to develop and deploy websites to the Internet. 
+
+There would be confusion and possible defects created if Team members were to directly make changes to the central project repository.  
+
+A solution to this problem is to have one central repository controlled by a team member gatekeeper. Each team member [forks](git-github#fork) a copy of central project repository to their GetHub account and makes a [clone](glossary#clone) of it on their workstation.
+
+---
+
+
+- Each developer makes changes to their repository [clone](glossary#clone). They cannot directly make changes to the central repository.
+
+	- Team members commit changes to their local repository clone
+
+	- They may deploy their local repository to a private [Preview](deploy#preview) Internet website for stakeholders to see and give feedback. 
+
+- The process is managed using [GitHub for Teams](https://github.com/team). When stakeholders determine developers changes, defect fixes, or new features are ready, a GitHub [Pull Request](git-github#pull-request) is made by developers to the central project repository. 
+
+	- Project team members and the gatekeeper are notified by GitHub of the [Pull Request](git-github#pull-request) request. They may examine, comment on, suggest possible changes, and test the code. 
+
+	- When the team agrees on committed developers changes, they are committed to the central project repository by the gatekeeper. This process is repeated for all developer committed changes. 
+
+	- Iterations of the central project repository may be deployed by the gatekeeper to a private [Preview](deploy#preview)  for stakeholders viewing. 
+
+- The next step is each developer [Pulls](git-github#pull) the central repository changes and commits them to their local repository copy of the central project. This process keeps team members up to date on changes.
+
+- The central project repository may be deployed to the public Internet by the gatekeeper after stakeholders agree there have been sufficient development and testing iterations.
+
+---
+
+---
+slug: workstations
+title: Workstations
+---
+
+:::info
+Workstations are the key hardware for website developers 
+:::
+
+## Overview
+
+Web site development is not easy, time consuming, and expensive. Optimizing the website development environment is critical.
+
+The key hardware for website developers are terminals. They need to be: 
+- Fast
+- Reliable
+- Supportable
+- Secure
+- Support Large or Multiple Screens
+- Run Software Development Applications
+
+The contemporary choice for web development workstations are Apple, Linux, and Microsoft. I have experience building web sites with purchased and bare metal built Linux systems and bare metal built Microsoft systems. I use apple products for exploring Internet technologies and creating web sites.
+
+Traditionally these companies built workstation products with Intel processors. They are diversifying their product line with [ARM-based](https://en.wikipedia.org/wiki/ARM_architecture) and [RISC-architecture](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) processors
+
+---
+
+
+## Apple
+
+<!--
+![Apple](/img/AppleLogo.png)
+-->
+
+<img src="/img/AppleLogo.png" width="100"/>
+
+[Apple](https://www.apple.com) is a computer manufacturing company delivering workstation products with Apple developed macOS certified UNIX operating systems.
+
+Apple recently released the first Mac products built with the ARM-based, Apple silicon designed, processors, and the macOS Big Sur operating system engineered to use [M1](https://en.wikipedia.org/wiki/Apple_M1) chip capabilities.
+
+The last Apple processor transition was the Motorola 68000 to the Intel x86. It took time for Apple vendors and users to update their hardware and software to run on the x86. Apple created the Rosetta translation application that ran Motorola 68000 binary code on x86 machines. The M1 translation layer Rosetta 2, is about 80% the speed of the of native Apple Silicon code. The single-core Rosetta 2 benchmark running on a low end M1 MacBook Air with 8GB of RAM, is faster than other x86 Mac machines in single core benchmark. The M1 MacBook Air running native is faster than any competitors top of the line x86 machine, except for a couple.
+
+Apple products prices may be higher than their competitors. It is mitigated by the quality of hardware and software, robustness, security, and vendor support.
+
+Any unnecessary web developer workstation downtime is expensive. The advantages of Apple products are robustness, reliability, security, speed, vendor hardware and software support, and relative ease to use. Apple has responsibility for maintaining hardware and software products from sale to retirement. Apple Stores and other services are equipped to diagnose and repair Apple products.
+
+Operating systems updates have been free for years, and Apple continues to have the highest customer satisfaction in the industry.
+
+---
+
+## Linux
+
+<!--
+![Linux](/img/LinuxLogo.jpeg)
+-->
+
+<img src="/img/LinuxLogo.png" width="100" />
+
+[Linux](https://www.linux.org/) is an examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses
+
+Linux is the leading operating system on web servers. Its greatest success in the consumer market is mobile device. Android being one of the dominant smartphones Linux-based operating system
+
+There are a some Linux vendor supported hardware platforms or Linux software distributions. The diversity of Linux distributions means that not all software or hardware runs all distributions or applications. Software and software repositories may be specific to a particular distribution
+
+Not all peripheral device vendors suport Linux. The Linux open-source community supplies several missing device drivers.
+
+The price of Linux-based systems is attractive. The operating system software is free. Ready-made hardware platforms are available, or can be bare metal built by choosing hardware and software components, and having the skills to assemble and maintain them.
+
+The robustness, reliability, security, and speed of Linux systems varies from low to high, depending on the knowledge and skills of the vendors, builders and maintainers
+
+Responsibility for maintaining Linux workstation hardware, operating systems, and device drivers is fragmented or doesn't exist, except from the vendors, builders and maintainers
+
+There are computer repair services that are equipped to diagnosed and repaired Linux systems, but not to the extent of Apple Stores
+
+---
+
+## Microsoft
+
+<img src="/img/MicrosoftLogo.png" width="100"/>
+
+[Microsoft](https://www.microsoft.com/en-us/) Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
+
+Consumer versions of Windows were originally designed for ease-of-use on a single-user PC without a network connection, and did not have security features built in from the outset. Windows updates are regularly improving security.
+
+Windows is one of hackers prime data hunting grounds, even with frequent security updates. Windows systems are everywhere and stores or has access to vast amounts of data. There are Windows installations that do not keep Windows updated. One reason may be issues with updates. Microsoft Windows update problem 2021 are recent examples.
+
+The reliability, robustness, security, and supportability of Microsoft systems varies from low to high, depending on the knowledge and skills of vendors, builders and maintainers. The combinations and permutations of vendor hardware platforms, software applications, and peripheral vendors and device support, may be contributing to Microsoft Windows update problems.
+
+There are computer repair services that are equipped to diagnosed and repaired Windows systems, but not to the extent of Apple Stores.
+
+---
+
+
+
+[def]: https://www.microsoft.com/en-us/
