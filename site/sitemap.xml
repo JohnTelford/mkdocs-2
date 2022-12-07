@@ -2,82 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://localhost:8000/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/company/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/contact/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/creating%20site/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/defect_costs/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/define/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/design/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/develop/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/developmenttools/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/diagrams/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/material/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/programming/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/siteoverview/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/teams/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/website-development-stack/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://localhost:8000/workstations/</loc>
-         <lastmod>2022-11-28</lastmod>
+         <lastmod>2022-12-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
