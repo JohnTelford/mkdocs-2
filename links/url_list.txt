@@ -119,6 +119,7 @@
 [M1](https://en.wikipedia.org/wiki/Apple_M1)
 [Linux](/img/LinuxLogo.jpeg)
 [Linux](https://www.linux.org/)
+[Microsoft](/img/MicrosoftLogo.png)
 [Microsoft](https://www.microsoft.com/en-us/)
 ![Mug Shot](/img/mugShot.png)
 ![bugFixChart](/img/bugFixChart.jpg)
@@ -132,3 +133,4 @@
 ![iterativedev](/img/iterativedev.png)
 ![Apple](/img/AppleLogo.png)
 ![Linux](/img/LinuxLogo.jpeg)
+![Microsoft](/img/MicrosoftLogo.png)

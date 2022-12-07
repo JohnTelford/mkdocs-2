@@ -1136,6 +1136,10 @@ There are computer repair services that are equipped to diagnosed and repaired L
 
 ## Microsoft
 
+<!-- 
+![Microsoft](/img/MicrosoftLogo.png)
+-->
+)
 <img src="/img/MicrosoftLogo.png" width="100"/>
 
 [Microsoft](https://www.microsoft.com/en-us/) Many companies sell hardware platforms with Microsoft Windows installed. Many peripheral device vendors support Windows drivers.
