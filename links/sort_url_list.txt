@@ -1,12 +1,3 @@
-## Mkdocs-2 URL Links
-
-### Sorting
-
-`sort -u -o sort_url_list.md url_list.md`
-
-### Image URLS
-
-```
 ![Apple](/img/AppleLogo.png)
 ![ChronoSync](/img/CSLogo300.png)
 ![Git Desk Top](/img/gitdesktop.png)
@@ -19,11 +10,7 @@
 ![iterativedev](/img/iterativedev.png)
 ![mdxLogo](/img/markdownlogo.png)
 ![vscodelogo](/img/vscodelogo.png)
-```
-
-### Links URLS
-
-```
+## Mkdocs–2 URL Links
 [ARM-based](https://en.wikipedia.org/wiki/ARM_architecture)
 [Apple](/img/AppleLogo.png)
 [Apple](https://www.apple.com)
@@ -104,4 +91,4 @@
 [mdxLogo](/img/markdownlogo.png)
 [pull](#pull)
 [vscodelogo](/img/vscodelogo.png)
-```
+Mkdocs–2 URL Links
