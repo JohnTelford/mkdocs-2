@@ -10,7 +10,6 @@
 ![iterativedev](/img/iterativedev.png)
 ![mdxLogo](/img/markdownlogo.png)
 ![vscodelogo](/img/vscodelogo.png)
-## Mkdocs–2 URL Links
 [ARM-based](https://en.wikipedia.org/wiki/ARM_architecture)
 [Apple](/img/AppleLogo.png)
 [Apple](https://www.apple.com)
@@ -91,4 +90,3 @@
 [mdxLogo](/img/markdownlogo.png)
 [pull](#pull)
 [vscodelogo](/img/vscodelogo.png)
-Mkdocs–2 URL Links

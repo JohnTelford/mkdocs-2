@@ -1,4 +1,3 @@
-## Mkdocs–2 URL Links
 [Mug Shot](/img/mugShot.png)
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 [bugFixChart](/img/bugFixChart.jpg)
