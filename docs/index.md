@@ -9,7 +9,8 @@
 # Iterative Development
 
 !!! Version
-    Version: 0.1.1
+    Version: 0.1.1  
+    Dec 12, 2020
 
 ---
 

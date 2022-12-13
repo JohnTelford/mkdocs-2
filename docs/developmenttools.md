@@ -1,4 +1,5 @@
 ---
+slug: vscode
 title: Develpopment Tools
 ---
 

@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://localhost:8000/vscode/</loc>
+         <lastmod>2022-12-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://localhost:8000/website-development-stack/</loc>
          <lastmod>2022-12-13</lastmod>
          <changefreq>daily</changefreq>

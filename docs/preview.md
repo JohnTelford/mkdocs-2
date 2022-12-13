@@ -1,5 +1,5 @@
 ---
-slug: preview.md
+slug: preview
 title: Private Website Preview
 ---
 
