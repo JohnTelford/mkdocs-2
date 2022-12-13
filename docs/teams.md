@@ -73,7 +73,7 @@ The *Develop* team prerequisites are:
 
 The Deploy team prerequisites are: 
 - Decisions about resources required for deploying production version of the website to the Internet.
-- Decisions about resources required for team developers working on features, fixes, or testing to deploy private [Preview](deploy#preview) Internet websites with their changes, without disturbing other developers work or the production version.  See [Preview Deployments](glossary#preview-deployments)
+- Decisions about resources required for team developers working on features, fixes, or testing to deploy private [Preview](preview.md) Internet websites with their changes, without disturbing other developers work or the production version. 
 
 ### Maintain
 

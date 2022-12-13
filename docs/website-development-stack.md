@@ -76,11 +76,11 @@ flowchart TB
 
 		- **MkDocs Material**  
   
-    		- Is "Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview
+    		- Is "Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview"
   
   		-  **GitHub**
 	
-          	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private Preview Internet websites, production websites, and individual team members private Preview websites.
+          	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private [Preview](preview.md) Internet websites, production websites, and individual team members private [Preview](preview.md) websites.
       		
       		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 
@@ -122,7 +122,7 @@ A solution to this problem is to have one central repository controlled by a tea
 
 	- Team members commit changes to their local repository clone
 
-	- They may deploy their local repository to a private [Preview](deploy#preview) Internet website for stakeholders to see and give feedback. 
+	- They may deploy their local repository to a private [Preview](preview.md) Internet website for stakeholders to see and give feedback. 
 
 - The process is managed using [GitHub for Teams](https://github.com/team). When stakeholders determine developers changes, defect fixes, or new features are ready, a GitHub [Pull Request](git-github#pull-request) is made by developers to the central project repository. 
 
@@ -130,7 +130,7 @@ A solution to this problem is to have one central repository controlled by a tea
 
 	- When the team agrees on committed developers changes, they are committed to the central project repository by the gatekeeper. This process is repeated for all developer committed changes. 
 
-	- Iterations of the central project repository may be deployed by the gatekeeper to a private [Preview](deploy#preview)  for stakeholders viewing. 
+	- Iterations of the central project repository may be deployed by the gatekeeper to a private [Preview](preview.md)  for stakeholders viewing. 
 
 - The next step is each developer [Pulls](git-github#pull) the central repository changes and commits them to their local repository copy of the central project. This process keeps team members up to date on changes.
 

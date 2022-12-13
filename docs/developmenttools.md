@@ -100,7 +100,7 @@ Icons for Visual Studio Code
 
     <img src="/img/gitHublogo.png" width="100"/>
 
-    The core technologies of Iterative Development are, [Git](#git) and GitHub. The central project repository is controlled by the project gatekeeper, and a content delivery network, like [Cloudflare](#deploy/cloudflare), where Internet production websites and individual team private [Preview](deploy#preview) Internet websites, are deployed.
+    The core technologies of Iterative Development are, [Git](#git) and GitHub. The central project repository is controlled by the project gatekeeper, and a content delivery network, like [Cloudflare](#deploy/cloudflare), where Internet production websites and individual team private [Preview](preview.md) Internet websites, are deployed.
 
     GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 
@@ -122,11 +122,11 @@ A summary of GitHub workflow for each team member is:
 1. Make topic edits and commits 
 2. Push after each commit to the cloned local project repository in GitHub account
 3. Periodically Pull from the central project repository. The *develop* branch will have merged accepted Pull Requests
-4. Periodically deploy local project repository to a private [Preview ](deploy#preview) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
+4. Periodically deploy local project repository to a private [Preview](preview.md) website without disturbing other developers work or the production version, for stake holders viewing and feedback. This reduces the Pull Request evaluation time because stake holders interested in topics can see how they are progressing and working with the website.
 4. Open a Pull Request on the GitHub local project repository to begin the  process of integrating the local project repository with the central project repository  
 1. Team members discuss, and optionally continue committing on Pull Requests.
 
-The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private [Preview ](deploy#preview) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
+The project gatekeeper merges or closes Pull Requests to the central project repository, and deploys the central project repository to a private [Preview](preview.md) website for stack holders viewing. The teams and gatekeeper continues the GitHub workflow process until stack holders agree the central project repository is ready for release to the public internet 
 
 Teams may Pull the central project repository at anytime to view and test other topic branches.
 

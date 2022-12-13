@@ -10,7 +10,7 @@ title: Overview
 
 	Iterative web development teams working together help optimizing website costs and lowering the difficulties creating websites.
 
-	This is done by developers working on website features, fixes, or testing, and deploying [Private](deploy#preview) Internet websites with their changes, without disturbing other developers work or the website production version. This enables the stakeholders to monitor progress and quickly give feedback, speeding up the development process.
+	This is done by developers working on website features, fixes, or testing, and deploying [Preview](preview.md) Internet websites with their changes, without disturbing other developers work or the website production version. This enables the stakeholders to monitor progress and quickly give feedback, speeding up the development process.
 
 ---
 
@@ -37,11 +37,11 @@ The core of Iterative Development is the [GitHub](git-github#gitHub) project cen
 
 Deploy working iterations of a software development solutions involving stakeholders at all phases of the development process
 
-Each team member make changes to their local copy of the project repository, they deploy a private [Preview](deploy#preview)  Internet website for stakeholders to view and give feedback.
+Each team member make changes to their local copy of the project repository, they deploy a private [Preview](preview.md)  Internet website for stakeholders to view and give feedback.
 
 Producing website functional iterations, it can tested, examined, and adjusted on an ongoing basis.
 
-The repository guardian and other team members evaluate and approve team members change requests to the central repository. Added change requests are deployed to a private preview Internet website for stakeholders to preview and give feedback. This process continues until stakeholders agree the website is ready for a public deployment.
+The repository guardian and other team members evaluate and approve team members change requests to the central repository. Added change requests are deployed to a private [preview](preview.md) Internet website for stakeholders to preview and give feedback. This process continues until stakeholders agree the website is ready for a public deployment.
 
 This process is more efficient than creating a website and hoping it meets the needs of stakeholders, and finding out the website needs to be redesign from the ground up because one or more critical requirements were overlooked.
 

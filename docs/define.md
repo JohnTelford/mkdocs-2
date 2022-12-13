@@ -44,7 +44,7 @@ Is the website:
 
 Who are the stakeholders?
 
-The teams deploy private [Preview](deploy#preview) websites for stakeholders review while creating new, updating, fixing, or exploring new features.
+The teams deploy private [Preview](preview.md) websites for stakeholders review while creating new, updating, fixing, or exploring new features.
 
 ### Musts and Wants Functionality
 
