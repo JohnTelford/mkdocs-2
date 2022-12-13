@@ -68,19 +68,20 @@ flowchart TB
 	- **Developers:**  
 	
     	- **Local Repository**:  
-			Each developer has their own "Local Repository" that is derived from the GitHub "Central Repository". It can be updated with the approved changes in the "Remote Repository."
+			Each developer has their own "Local Website Repository" that is derived from the GitHub "Central Repository". It can be updated with the approved changes in the "Central Repository."
 
 		- **VScode**  
   
-        	- Developers us VSCode as their Web Development Stack Command and Control center, and project editor
+        	- Developers use [VSCode](vscode.md) as their Web Development Stack Command and Control center, and project editor
 
 		- **MkDocs Material**  
   
-    		- Is "Static Site Generator" that uses the "Local Repository" code to create a local website that may deployed as a "Preview"
+    		- Is a "Static Site Generator" that uses the "Local Website Repository" code to create a [Preview](preview.md) website for stakeholders  
+            - Is also used by the CDN do build and deploy the website from the Central Repository
   
   		-  **GitHub**
 	
-          	- The core technologies of Iterative Development are Git, GitHub central project repository controlled by the project gatekeeper, and a content delivery network, like Cloudflare, deploying private [Preview](preview.md) Internet websites, production websites, and individual team members private [Preview](preview.md) websites.
+          	- The core technologies of Iterative Development are Git, the GitHub central project repository controlled by the project gatekeeper,  using "Local Website Repository", the content delivery network, like Cloudflare, to deploying private [Preview](preview.md) Internet websites, production websites, and .
       		
       		- GitHub is a Distributed Version Control Systems enabling multiple teams to work separately on the same project without having an impact on the work of others. GitHub manages an online web hosted central project repository containing all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes.
 
