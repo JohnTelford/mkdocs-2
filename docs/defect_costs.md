@@ -18,6 +18,6 @@ The early defect detection mechanisms built into iterative development and a sta
 
 - Fast refresh live-editing quickly showing changes and any runtime errors while typing
 
-- Team members deploy their copy of the project repository with their changes, to private websites where stakeholders can see them and give feedback.  See [Preview Deployments](glossary#preview-deployments)
+- Team members deploy their copy of the project repository with their changes, to private websites where stakeholders can see them and give feedback.  See [Preview ](preview.md)
 
 ---
